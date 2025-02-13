@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+}
+
+.container {
+    position: relative;
+    width: 380px;
+    height: 500px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.form-box {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+}
+
+.button-box {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+#btn {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: #ff5e62;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.input-group {
+    position: absolute;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+}
+
+.check-box {
+    margin: 10px 5px 20px 0;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #ff5e62;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #ff9966;
+}
+
+#signup {
+    left: 450px;
+}
